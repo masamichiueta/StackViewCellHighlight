@@ -14,7 +14,7 @@
 		243BFCD3239A2630005A028F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BFCD2239A2630005A028F /* Assets.xcassets */; };
 		243BFCD6239A2630005A028F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243BFCD4239A2630005A028F /* LaunchScreen.storyboard */; };
 		243BFCDE239A2A90005A028F /* SelectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BFCDD239A2A90005A028F /* SelectableButton.swift */; };
-		243BFCE0239A2DB7005A028F /* SelectableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BFCDF239A2DB7005A028F /* SelectableRowView.swift */; };
+		243BFCE0239A2DB7005A028F /* SelectableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BFCDF239A2DB7005A028F /* SelectableCellView.swift */; };
 		243BFCE4239A31F9005A028F /* UIButtonCancelableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BFCE3239A31F9005A028F /* UIButtonCancelableScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		243BFCD5239A2630005A028F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243BFCD7239A2630005A028F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243BFCDD239A2A90005A028F /* SelectableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButton.swift; sourceTree = "<group>"; };
-		243BFCDF239A2DB7005A028F /* SelectableRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableRowView.swift; sourceTree = "<group>"; };
+		243BFCDF239A2DB7005A028F /* SelectableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableCellView.swift; sourceTree = "<group>"; };
 		243BFCE3239A31F9005A028F /* UIButtonCancelableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonCancelableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				243BFCDD239A2A90005A028F /* SelectableButton.swift */,
-				243BFCDF239A2DB7005A028F /* SelectableRowView.swift */,
+				243BFCDF239A2DB7005A028F /* SelectableCellView.swift */,
 				243BFCE3239A31F9005A028F /* UIButtonCancelableScrollView.swift */,
 			);
 			path = Components;
@@ -159,7 +159,7 @@
 				243BFCDE239A2A90005A028F /* SelectableButton.swift in Sources */,
 				243BFCCA239A262E005A028F /* AppDelegate.swift in Sources */,
 				243BFCCC239A262E005A028F /* SceneDelegate.swift in Sources */,
-				243BFCE0239A2DB7005A028F /* SelectableRowView.swift in Sources */,
+				243BFCE0239A2DB7005A028F /* SelectableCellView.swift in Sources */,
 				243BFCE4239A31F9005A028F /* UIButtonCancelableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

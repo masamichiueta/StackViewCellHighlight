@@ -24,7 +24,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5X-ze-aF4">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-CV-RQ0" customClass="SelectableRowView" customModule="StackViewCellHighlight" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-CV-RQ0" customClass="SelectableCellView" customModule="StackViewCellHighlight" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     </view>
@@ -35,8 +35,8 @@
                                                             <constraint firstAttribute="height" constant="1" id="4bh-P9-Csj"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Row1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZF-ie-m7a">
-                                                        <rect key="frame" x="187" y="90" width="40.5" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cell1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZF-ie-m7a">
+                                                        <rect key="frame" x="189" y="90" width="36.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -59,7 +59,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zkt-ct-2Iw">
                                                 <rect key="frame" x="0.0" y="200" width="414" height="200"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uY-3V-fsK" customClass="SelectableRowView" customModule="StackViewCellHighlight" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0uY-3V-fsK" customClass="SelectableCellView" customModule="StackViewCellHighlight" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     </view>
@@ -70,8 +70,8 @@
                                                             <constraint firstAttribute="height" constant="1" id="Z29-GN-hPG"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Row2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iut-fw-8VC">
-                                                        <rect key="frame" x="186" y="90" width="42.5" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cell2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iut-fw-8VC">
+                                                        <rect key="frame" x="187.5" y="90" width="39" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -94,7 +94,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvC-ey-kLw">
                                                 <rect key="frame" x="0.0" y="400" width="414" height="200"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klm-Be-LL9" customClass="SelectableRowView" customModule="StackViewCellHighlight" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klm-Be-LL9" customClass="SelectableCellView" customModule="StackViewCellHighlight" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     </view>
@@ -105,8 +105,8 @@
                                                             <constraint firstAttribute="height" constant="1" id="Vm0-yZ-6wq"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Row3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1z-CR-SHY">
-                                                        <rect key="frame" x="185.5" y="90" width="43" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cell3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1z-CR-SHY">
+                                                        <rect key="frame" x="187.5" y="90" width="39.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -129,7 +129,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MPt-Mq-OQh">
                                                 <rect key="frame" x="0.0" y="600" width="414" height="200"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSE-96-Cdb" customClass="SelectableRowView" customModule="StackViewCellHighlight" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSE-96-Cdb" customClass="SelectableCellView" customModule="StackViewCellHighlight" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     </view>
@@ -140,7 +140,7 @@
                                                             <constraint firstAttribute="height" constant="1" id="rGe-b5-Hy9"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Row4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhA-kC-Rih">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cell4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhA-kC-Rih">
                                                         <rect key="frame" x="186" y="89" width="40.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -164,12 +164,12 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2S-cV-wkM">
                                                 <rect key="frame" x="0.0" y="800" width="414" height="200"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYd-D5-yDV" customClass="SelectableRowView" customModule="StackViewCellHighlight" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYd-D5-yDV" customClass="SelectableCellView" customModule="StackViewCellHighlight" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Row5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSQ-dk-6I4">
-                                                        <rect key="frame" x="185.5" y="90" width="43" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cell5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSQ-dk-6I4">
+                                                        <rect key="frame" x="187.5" y="90" width="39.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -212,11 +212,11 @@
                     <navigationItem key="navigationItem" id="m91-LZ-qtL"/>
                     <size key="freeformSize" width="414" height="896"/>
                     <connections>
-                        <outlet property="row1" destination="8IV-CV-RQ0" id="8fz-E6-3si"/>
-                        <outlet property="row2" destination="0uY-3V-fsK" id="oGo-Ji-drR"/>
-                        <outlet property="row3" destination="klm-Be-LL9" id="QO3-Jo-8uz"/>
-                        <outlet property="row4" destination="DSE-96-Cdb" id="Vc9-wb-0La"/>
-                        <outlet property="row5" destination="HYd-D5-yDV" id="MFI-ry-Osv"/>
+                        <outlet property="cell1" destination="8IV-CV-RQ0" id="8fz-E6-3si"/>
+                        <outlet property="cell2" destination="0uY-3V-fsK" id="oGo-Ji-drR"/>
+                        <outlet property="cell3" destination="klm-Be-LL9" id="QO3-Jo-8uz"/>
+                        <outlet property="cell4" destination="DSE-96-Cdb" id="Vc9-wb-0La"/>
+                        <outlet property="cell5" destination="HYd-D5-yDV" id="MFI-ry-Osv"/>
                         <segue destination="eAC-3d-0cJ" kind="show" identifier="show" id="6Ey-p4-WLl"/>
                     </connections>
                 </viewController>

@@ -1,5 +1,5 @@
 //
-//  SelectableRowView.swift
+//  SelectableCellView.swift
 //  StackViewCellHighlight
 //
 //  Created by masamichi on 2019/12/06.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SelectableRowView: UIView {
+class SelectableCellView: UIView {
 
     private lazy var button: SelectableButton = {
         let button = SelectableButton()
