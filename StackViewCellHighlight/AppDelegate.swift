@@ -3,16 +3,14 @@
 //  StackViewCellHighlight
 //
 //  Created by masamichi on 2019/12/06.
-//  Copyright © 2019 Mercari. All rights reserved.
+//  Copyright © 2019 Masamichi Ueta. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

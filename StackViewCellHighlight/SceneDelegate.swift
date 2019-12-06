@@ -3,7 +3,7 @@
 //  StackViewCellHighlight
 //
 //  Created by masamichi on 2019/12/06.
-//  Copyright © 2019 Mercari. All rights reserved.
+//  Copyright © 2019 Masamichi Ueta. All rights reserved.
 //
 
 import UIKit
